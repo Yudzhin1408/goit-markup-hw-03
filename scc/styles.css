@@ -1,0 +1,219 @@
+:root {
+  --logo-text-color: #2196f3;
+  --header-communication-text-color: #757575;
+  --main-title-color: #ffffff;
+  --accent-color: #2196f3;
+
+  --button-text-color: #ffffff;
+  --btn-acent-color: #ffffff;
+
+  --desc-text-color: #757575;
+
+  --footer-adress-text-color: #ffffff;
+  --footer-communication-text-color: rgba(255, 255, 255, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p {
+  font-size: inherit;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* -----------------------------------header-------------------------------------------------- */
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+
+.header-logo-text {
+  color: #000000;
+}
+
+.header-link {
+  font-weight: 500;
+
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-communication-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-communication-text-color);
+}
+
+.header-communication-link:hover,
+.header-communication-link:focus {
+  color: var(--accent-color);
+}
+.active {
+  color: var(--accent-color);
+}
+
+/* -----------------------------------main-------------------------------------------------- */
+/* ---------------------------------Зоголовок---------------------------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--button-text-color);
+  cursor: pointer;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+
+/* ----------------------------------особенность----------------------------- */
+.features-subtitle {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--desc-text-color);
+}
+/* ----------------------------------Чем мы занимаемся----------------------------- */
+
+.work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+/* ----------------------------------команда----------------------------- */
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.team-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--desc-text-color);
+}
+/* ----------------------------------footer----------------------------- */
+
+.header-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-text-color);
+}
+.footer-addres {
+  font-style: inherit;
+
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-logo-text {
+  color: var(--footer-adress-text-color);
+}
+
+.footer-communication {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-communication-text-color);
+}
+.footer-communication:hover,
+.footer-communication:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+/* ------------------------------портфолио-------------------------------- */
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+
+  padding: 6px 22px;
+  border-radius: 4px;
+  background: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: var(--btn-acent-color);
+  background: #188ce8;
+}
+
+.items-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.slogan-title {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--desc-text-color);
+}
