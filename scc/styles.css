@@ -51,6 +51,9 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding: 94px 0;
+}
 
 /* -----------------------------------header-------------------------------------------------- */
 .header {
@@ -169,7 +172,6 @@ body {
 
 /* ----------------------------------особенность----------------------------- */
 .features {
-  margin-top: 94px;
 }
 .features-list {
   display: flex;
@@ -189,15 +191,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
   width: 270px;
-  height: 75px;
 }
 /* ----------------------------------Чем мы занимаемся----------------------------- */
 .work-section {
   text-align: center;
 }
 .work-container {
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 .work-list {
   display: flex;
@@ -218,8 +217,6 @@ body {
   text-align: center;
 }
 .team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-title {
@@ -291,19 +288,15 @@ body {
   background-color: #2f303a;
 }
 /* ------------------------------портфолио-------------------------------- */
-.btn-container {
-  margin-top: 94px;
-  display: flex;
-}
 .btn-list {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
 }
-.btn-item {
-}
+
 .button {
   font-family: inherit;
   font-weight: 500;
@@ -324,18 +317,23 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 .items-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 20px;
 }
-
+.portfolio-item:not(:last-child) {
+  margin-right: 30px;
+}
 .slogan-title {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
+  margin-top: 4px;
 }
 /* --------------------------------------------------------------------------------------------------------- */
