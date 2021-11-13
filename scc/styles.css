@@ -34,7 +34,6 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: #212121;
-  width: 100%;
 }
 
 .list {
@@ -51,6 +50,37 @@ body {
 }
 
 /* -----------------------------------header-------------------------------------------------- */
+/* flex */
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-communication {
+  display: flex;
+  align-items: center;
+}
+.header-connect {
+  margin-left: auto;
+}
+.header-nav {
+  margin-left: 93px;
+}
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-item-communication:not(:last-child) {
+  margin-right: 50px;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 23px;
+}
+
 .header-logo {
   font-family: Raleway;
   font-weight: 700;
