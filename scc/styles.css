@@ -21,7 +21,12 @@ h5,
 h5,
 h6,
 p {
-  font-size: inherit;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -37,6 +42,12 @@ body {
 .link {
   text-decoration: none;
 }
+/* .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+} */
 
 /* -----------------------------------header-------------------------------------------------- */
 .header-logo {
@@ -217,3 +228,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
 }
+/* --------------------------------------------------------------------------------------------------------- */
