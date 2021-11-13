@@ -297,12 +297,12 @@ body {
 }
 .btn-list {
   display: flex;
+  justify-content: center;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
 }
 .btn-item {
-  justify-content: center;
 }
 .button {
   font-family: inherit;
