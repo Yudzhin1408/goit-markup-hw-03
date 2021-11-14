@@ -31,6 +31,10 @@ ul {
 img {
   display: block;
 }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -55,6 +59,15 @@ body {
   padding: 94px 0;
 }
 
+.selector {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 /* -----------------------------------header-------------------------------------------------- */
 .header {
   padding-top: 24px;
@@ -147,7 +160,6 @@ body {
   color: var(--main-title-color);
   margin-bottom: 30px;
   width: 696px;
-  align-items: center;
 }
 
 .hero-button {
@@ -292,6 +304,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
@@ -304,6 +317,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 
   padding: 6px 22px;
   border-radius: 4px;
@@ -321,7 +335,6 @@ body {
 }
 
 .portfolio-item {
-  border: 1px solid #eeeeee;
   margin: 15px;
 }
 
@@ -330,7 +343,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .slogan-title {
@@ -338,6 +351,12 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
-  margin-top: 4px;
+}
+
+.dorder {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 /* --------------------------------------------------------------------------------------------------------- */
