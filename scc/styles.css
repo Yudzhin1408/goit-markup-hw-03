@@ -265,6 +265,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--desc-text-color);
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 /* ----------------------------------footer----------------------------- */
 .footer-container {
